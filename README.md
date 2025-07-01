@@ -36,7 +36,6 @@ cd fetch-latest-tech-news
 2. Install dependencies:
 
 ```bash
-cd frontend
 npm install
 ```
 
@@ -69,14 +68,13 @@ This application uses the NewsAPI to fetch tech news. The API key is currently e
 
 ```
 fetch-latest-tech-news/
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx          # Main React component
-│   │   ├── App.css          # Styles for the application
-│   │   └── main.jsx         # React entry point
-│   ├── package.json
-│   └── vite.config.js
-├── news/                    # Generated news files (if any)
+├── src/
+│   ├── App.jsx          # Main React component
+│   ├── App.css          # Styles for the application
+│   └── main.jsx         # React entry point
+├── package.json
+├── vite.config.js
+├── dist/                # Production build output
 └── README.md
 ```
 
